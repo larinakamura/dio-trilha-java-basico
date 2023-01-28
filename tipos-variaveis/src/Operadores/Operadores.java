@@ -1,5 +1,9 @@
-public class TipoVariaveis {
-    public static void main(String[] args) throws Exception {
+package Operadores;
+public class Operadores {
+    public static void main (String[] args) {
+        String nomeCompleto = "LINGUAGEM" + "JAVA";
+
+        System.out.println (nomeCompleto);
 
         String concatenacao = "?";
 
@@ -22,6 +26,7 @@ public class TipoVariaveis {
         concatenacao = "1"+(1+1+1);
 
         System.out.print(concatenacao);
-        
+
+
     }
 }
